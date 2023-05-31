@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cabeçalho {
+    text-align: center;
+    margin: 5rem;
+}
+
+.cabeçalho h1 {
+    font-size: 20px;
+    margin: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    gap: 5rem;
+    width: 540px;
+    height: 71px;
+    border: 1px solid #000;  
+    align-items: center;
+    min-width: 160px;
+}
+
+.menu a {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+
+.foto1 {
+    display: flex;
+    grid-template-areas: 
+    "foto1" "foto1" "foto2"
+    "foto3" "foto4" "foto2";
+
+}
+
+footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer foto {
+    display: flex;
+}
